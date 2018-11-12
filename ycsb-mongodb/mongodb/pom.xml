@@ -16,6 +16,8 @@
       <groupId>org.mongodb</groupId>
       <artifactId>mongo-java-driver</artifactId>
       <version>${mongodb.version}</version>
+      <scope>system</scope>
+      <systemPath>/home/ec2-user/mongo-java-driver-3.10.0-SNAPSHOT.jar</systemPath>
     </dependency>
     <dependency>
       <groupId>com.yahoo.ycsb</groupId>
