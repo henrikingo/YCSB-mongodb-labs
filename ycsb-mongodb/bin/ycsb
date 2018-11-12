@@ -107,7 +107,7 @@ database = sys.argv[2]
 db_classname = DATABASES[database]
 options = sys.argv[3:]
 
-patched_mongo_java_driver = ["../../mongo-java-driver-3.10.0-SNAPSHOT.jar"]
+patched_mongo_java_driver = ["/home/ec2-user/mongo-java-driver-3.10.0-SNAPSHOT.jar"]
 
 ycsb_command = ["java", "-cp", os.pathsep.join(find_jars(ycsb_home, database) + patched_mongo_java_driver), \
                 COMMANDS[sys.argv[1]]["main"], "-db", db_classname] + options
