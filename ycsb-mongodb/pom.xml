@@ -28,13 +28,11 @@
   <!-- Properties Management -->
   <properties>
     <maven.assembly.version>2.2.1</maven.assembly.version>
-    <mongodb.version>3.6.3</mongodb.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
   <modules>
     <module>core</module>
-    <module>mongodb</module>
     <!--<module>distribution</module>-->
   </modules>
 
