@@ -33,6 +33,7 @@
 
   <modules>
     <module>core</module>
+    <module>mongodb</module>
     <!--<module>distribution</module>-->
   </modules>
 
